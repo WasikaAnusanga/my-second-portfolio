@@ -23,8 +23,43 @@
   .header-box-resume button {
     display: none;
   }
-  .header-box-resume img {
+  .header-box-resume div {
     display: block;
+    background-image: url(../icons/burger-menu.png),
+      url(../icons/close-icon.png);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, right 50px;
+    cursor: pointer;
+  }
+  /*responsive nav styles*/
+  .nav-links-resp {
+    display: none;
+    position: fixed;
+    right: 0;
+    padding: 60px 0 0 0;
+    background-color: var(--site-light-gray);
+    width: 60%;
+    height: calc(100vh - 64px);
+    transition: all 0.3s ease;
+  }
+  .nav-links-resp ul {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+  }
+  .nav-links-resp ul li {
+    width: 100%;
+    text-align: center;
+    border-bottom: solid 1px var(--site-dark-gray);
+    padding: 10px 0;
+  }
+  .nav-links-resp ul li:last-of-type {
+    border-bottom: none;
   }
   /*main section*/
   .main-intro-section {
@@ -87,20 +122,17 @@
     width: 100%;
     padding: 10px 10px;
     padding-bottom: 20px;
-    border: solid 1px;
+
     height: fit-content;
   }
   .recent-projects-content-box img {
-
     width: 13%;
     height: 13%;
     border-radius: 50%;
     transition: all 0.3s ease;
     margin-right: 10px;
   }
-  .recent-projects-content-box-details{
-    border: solid 1px;
-  }
+
   .recent-projects-content-box:last-child {
     border-bottom: none;
   }
