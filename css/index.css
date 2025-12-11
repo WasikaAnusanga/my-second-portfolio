@@ -44,6 +44,9 @@
 .header-box-resume button:hover {
   border: solid var(--site-text-color) 1px;
 }
+.header-box-resume img {
+    display: none;
+}
 
 /*main section*/
 .main-intro-section {
