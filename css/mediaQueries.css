@@ -54,10 +54,7 @@
   }
 
   /*about me section*/
-
-  
   .about-me-content {
-    
     display: flex;
     flex-direction: column-reverse;
     padding: 0 0 60px 0;
@@ -72,5 +69,71 @@
   }
   .about-me-content img {
     width: 65%;
+  }
+
+  /*recent projects section*/
+
+  .recent-projects-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 0 60px 0;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+  .recent-projects-content-box {
+    border-bottom: solid 1px;
+    width: 100%;
+    padding: 10px 10px;
+    padding-bottom: 20px;
+  }
+  .recent-projects-content-box:last-child {
+    border-bottom: none;
+  }
+  .recent-projects-content-box img {
+    width: 13%;
+    height: fit-content;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    margin-right: 20px;
+  }
+  .recent-projects-content-box-details h3 {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+
+  .recent-projects-content-box-details p {
+    font-size: 1.4rem;
+    line-height: 1.25;
+    margin-bottom: 8px;
+  }
+
+  .recent-projects-content-box-details-line {
+    height: 1px;
+    margin-bottom: 8px;
+    background-color: var(--site-text-color);
+  }
+
+  .recent-projects-content-box-details p:nth-child(4) {
+    color: rgb(96, 96, 96);
+    margin-bottom: 8px;
+  }
+  .recent-projects-content-box-details button {
+    display: flex;
+    align-items: center;
+    border: solid 1px;
+    border-radius: 8px;
+    padding: 8px 16px;
+  }
+  .recent-projects-content-box-details button:hover {
+    border: solid rgb(0, 0, 0) 1px;
+    box-shadow: 0 4px 6px -2px #1f1f1f4a;
+    transform: scale(1.01);
+  }
+  .recent-projects-content-box-details button img {
+    width: 20px;
   }
 }
