@@ -87,18 +87,31 @@
     width: 100%;
     padding: 10px 10px;
     padding-bottom: 20px;
+    border: solid 1px;
+    height: fit-content;
+  }
+  .recent-projects-content-box img {
+
+    width: 13%;
+    height: 13%;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+  }
+  .recent-projects-content-box-details{
+    border: solid 1px;
   }
   .recent-projects-content-box:last-child {
     border-bottom: none;
   }
 
   /*Contact*/
-  
+
   .contact-me-content {
     text-align: center;
     row-gap: 30px;
   }
-  
+
   .contact-me-content-contact-data {
     display: flex;
     flex-direction: column;
@@ -109,7 +122,7 @@
     align-items: center;
     justify-content: center;
   }
-  .contact-me-content-footer{
+  .contact-me-content-footer {
     font-size: 1.2rem;
     text-align: justify;
   }
