@@ -58,6 +58,14 @@
     border-bottom: solid 1px var(--site-dark-gray);
     padding: 10px 0;
   }
+  
+ .nav-links-resp ul li button {
+  margin-top:30px;
+  border: solid var(--site-dark-gray) 1px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: border 0.3s;
+}
   .nav-links-resp ul li:last-of-type {
     border-bottom: none;
   }
@@ -126,8 +134,8 @@
     height: fit-content;
   }
   .recent-projects-content-box img {
-    width: 13%;
-    height: 13%;
+    width: 15%;
+    height: 15%;
     border-radius: 50%;
     transition: all 0.3s ease;
     margin-right: 10px;

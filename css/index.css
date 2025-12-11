@@ -47,6 +47,9 @@
 .header-box-resume div {
   display: none;
 }
+.nav-links-resp{
+  display: none;
+}
 
 /*main section*/
 .main-intro-section {
